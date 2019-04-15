@@ -1,11 +1,9 @@
-def my_collect(array)
+def my_collect(collection)
   new_array = []
   i = 0
-  while array.length > i
-    yield(array[i])
+  while collection.length > i
+    yield(collection[i])
     i += 1
   end
   array
 end
-
-my_collect(collection) { |lang| lang.upcase}
