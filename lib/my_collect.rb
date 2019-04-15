@@ -2,11 +2,11 @@ collection = ["ruby", "javascript", "python", "objective-c"]
 
 def my_collect(array)
   i = 0
-  while collection.length > i
-    yield(collection[i])
+  while array.length > i
+    yield(array[i])
     i += 1
   end
-  collection
+  array
 end
 
 my_collect(collection) { |lang| lang.upcase}
