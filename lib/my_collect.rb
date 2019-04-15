@@ -7,4 +7,4 @@ def my_collect(collection)
   collection
 end
 
-my_collect(collection) do 
+my_collect(collection) { |lang| 
