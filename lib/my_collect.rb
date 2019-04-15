@@ -1,6 +1,6 @@
 collection = ["ruby", "javascript", "python", "objective-c"]
 
-def my_collect(collection)
+def my_collect(array)
   i = 0
   while collection.length > i
     yield(collection[i])
