@@ -3,4 +3,6 @@ def my_collect(collection)
   while collection.length > i
     yield(collection[i])
     i += 1
+  end
+
 
